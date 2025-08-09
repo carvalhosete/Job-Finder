@@ -1,0 +1,33 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Portal para programadores encontrarem vagas de trabalho.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carvalhosete/Job-Finder.git"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity",
+    "node.js"
+  ],
+  "author": "carvalhosete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carvalhosete/Job-Finder/issues"
+  },
+  "homepage": "https://github.com/carvalhosete/Job-Finder#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  }
+}
